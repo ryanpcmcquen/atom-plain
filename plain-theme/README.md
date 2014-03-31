@@ -1,4 +1,4 @@
-# plain-theme theme
+# plain-theme
 
 For those who do not want syntax highlighting. ;-)
 

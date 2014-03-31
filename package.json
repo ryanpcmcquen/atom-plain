@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.2.0",
   "description": "A theme for those who do not want syntax highlighting.",
-  "repository": "https://github.com/atom/plain-theme",
+  "repository": "https://github.com/ryanpcmcquen/atom-plain",
   "license": "GPL",
   "engines": {
     "atom": ">0.50.0"

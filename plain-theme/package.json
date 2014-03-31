@@ -2,9 +2,9 @@
   "name": "plain-theme",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A theme for those who do not want syntax highlighting.",
   "repository": "https://github.com/atom/plain-theme",
-  "license": "MIT",
+  "license": "GPL",
   "engines": {
     "atom": ">0.50.0"
   }

@@ -1,7 +1,7 @@
 {
   "name": "plain-theme",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "A theme for those who do not want syntax highlighting.",
   "repository": "https://github.com/atom/plain-theme",
   "license": "GPL",

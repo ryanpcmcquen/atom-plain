@@ -1,0 +1,173 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #333333;
+}
+
+.comment {
+  color: #bbbbbb;
+}
+
+.string {
+  color: #ffffff;
+}
+
+.constant.numeric {
+  color: #ffffff;
+}
+
+.constant.language {
+  color: #ffffff;
+}
+
+.constant.character, .constant.other {
+  color: #ffffff;
+}
+
+.variable {
+}
+
+.keyword {
+}
+
+.storage {
+  color: #ffffff;
+}
+
+.storage.type {
+  color: #ffffff;
+}
+
+.entity.name.class {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.entity.other.inherited-class {
+  text-decoration: underline;
+}
+
+.entity.name.function {
+  color: #ffffff;
+}
+
+.variable.parameter {
+  color: #ffffff;
+}
+
+.entity.name.tag {
+  color: #ffffff;
+}
+
+.entity.other.attribute-name {
+  color: #ffffff;
+}
+
+.support.function {
+  color: #ffffff;
+}
+
+.support.constant {
+  color: #ffffff;
+}
+
+.support.type, .support.class {
+  color: #ffffff;
+}
+
+.support.other.variable {
+}
+
+.invalid {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.invalid.deprecated {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.meta.structure.dictionary.json .string.quoted.double.json {
+  color: #ffffff;
+}
+
+.meta.diff, .meta.diff.header {
+  color: #ffffff;
+}
+
+.markup.deleted {
+  color: #ffffff;
+}
+
+.markup.inserted {
+  color: #ffffff;
+}
+
+.markup.changed {
+  color: #ffffff;
+}
+
+.constant.numeric.line-number.find-in-files:not(.match) {
+  color: #ffffff;
+}
+
+.entity.name.filename.find-in-files {
+  color: #ffffff;
+}
+
+.string .punctuation.section.embedded.ruby {
+  color: #ffffff;
+}
+
+.string .source.ruby.embedded.source {
+  color: #ffffff;
+}

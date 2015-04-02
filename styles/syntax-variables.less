@@ -1,32 +1,34 @@
+@import "colors";
+
 // This defines all syntax variables that syntax themes must implement when they
 // include a syntax-variables.less file.
 
 // General colors
-@syntax-text-color: #eeeeee;
-@syntax-cursor-color: #ffffff;
-@syntax-selection-color: #aaaaaa;
-@syntax-background-color: #000000;
-@syntax-text-comment-color: #bbbbbb;
-@syntax-text-important-stuff-color: #ffffff;
+@syntax-text-color:                       @off-white;
+@syntax-cursor-color:                     @white;
+@syntax-selection-color:                  @dark-blue;
+@syntax-selection-flash-color:            @white;
+@syntax-background-color:                 @black;
 
 // Guide colors
-@syntax-wrap-guide-color: #aaaaaa;
-@syntax-indent-guide-color: #aaaaaa;
-@syntax-invisible-character-color: #aaaaaa;
+@syntax-wrap-guide-color:                 @gray;
+@syntax-indent-guide-color:               fadeout(@white, 90%);
+@syntax-invisible-character-color:        fadeout(@white, 90%);
+@syntax-cursor-line:                      fadeout(@white, 95%);
 
 // For find and replace markers
-@syntax-result-marker-color: #aaaaaa;
-@syntax-result-marker-color-selected: #eeeeee;
+@syntax-result-marker-color:              @off-white;
+@syntax-result-marker-color-selected:     @white;
 
 // Gutter colors
-@syntax-gutter-text-color: #eeeeee;
-@syntax-gutter-text-color-selected: #eeeeee;
-@syntax-gutter-background-color: #000000;
-@syntax-gutter-background-color-selected: #333333;
+@syntax-gutter-text-color:                @off-white;
+@syntax-gutter-text-color-selected:       @white;
+@syntax-gutter-background-color:          @dark-gray;
+@syntax-gutter-background-color-selected: @dark-gray;
 
 // For git diff info. i.e. in the gutter
-// These are static and were not extracted from your textmate theme
-@syntax-color-renamed: #96CBFE;
-@syntax-color-added: #A8FF60;
-@syntax-color-modified: #E9C062;
-@syntax-color-removed: #CC6666;
+@syntax-color-renamed:                    @white;
+@syntax-color-added:                      @white;
+@syntax-color-modified:                   @white;
+@syntax-color-removed:                    @white;
+

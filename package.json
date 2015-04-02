@@ -6,6 +6,6 @@
   "repository": "https://github.com/ryanpcmcquen/atom-plain",
   "license": "GPL",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=0.50.0"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "plain-theme",
   "theme": "syntax",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A theme for those who do not want syntax highlighting.",
   "repository": {
     "type": "git",

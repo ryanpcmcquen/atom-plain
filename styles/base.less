@@ -1,4 +1,4 @@
-@import "syntax-variables";
+@import "syntax-variables.less";
 
 :host, atom-text-editor {
   background-color: @syntax-background-color;
@@ -40,55 +40,60 @@
   border: @syntax-result-marker-color-selected;
 }
 
-:host, atom-text-editor.is-focused .cursor {
+:host, atom-text-editor .cursor {
   border-color: @syntax-cursor-color;
 }
 
-:host, atom-text-editor.is-focused .selection .region {
-  background-color: @syntax-selection-color;
+atom-text-editor .selection,
+atom-text-editor .highlight,
+atom-text-editor .selection .region,
+atom-text-editor .highlight .region {
+  background-color: @syntax-selection-color !important;
 }
 
 :host, atom-text-editor.is-focused .line-number.cursor-line-no-selection, :host, atom-text-editor.is-focused .line.cursor-line {
-  background-color: #333333;
+  background-color: @syntax-gutter-background-color-selected;
 }
 
 .comment {
-  color: #bbbbbb;
+  color: @syntax-text-comment-color;
 }
 
 .string {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .constant.numeric {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .constant.language {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .constant.character, .constant.other {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .variable {
+  color: @syntax-text-important-stuff-color;
 }
 
 .keyword {
+  color: @syntax-text-important-stuff-color;
 }
 
 .storage {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .storage.type {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .entity.name.class {
   text-decoration: underline;
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .entity.other.inherited-class {
@@ -96,78 +101,79 @@
 }
 
 .entity.name.function {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .variable.parameter {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .entity.name.tag {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .entity.other.attribute-name {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .support.function {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .support.constant {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .support.type, .support.class {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .support.other.variable {
+  color: @syntax-text-important-stuff-color;
 }
 
 .invalid {
-  color: #ffffff;
-  background-color: #000000;
+  color: @syntax-text-important-stuff-color;
+  background-color: @syntax-background-color;
 }
 
 .invalid.deprecated {
-  color: #ffffff;
-  background-color: #000000;
+  color: @syntax-text-important-stuff-color;
+  background-color: @syntax-background-color;
 }
 
 .meta.structure.dictionary.json .string.quoted.double.json {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .meta.diff, .meta.diff.header {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .markup.deleted {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .markup.inserted {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .markup.changed {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .constant.numeric.line-number.find-in-files:not(.match) {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .entity.name.filename.find-in-files {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .string .punctuation.section.embedded.ruby {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }
 
 .string .source.ruby.embedded.source {
-  color: #ffffff;
+  color: @syntax-text-important-stuff-color;
 }

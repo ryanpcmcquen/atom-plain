@@ -1,7 +1,7 @@
 {
   "name": "plain-theme",
   "theme": "syntax",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A theme for those who do not want syntax highlighting.",
   "repository": {
     "type": "git",
@@ -16,19 +16,5 @@
   "bugs": {
     "url": "https://github.com/ryanpcmcquen/atom-plain/issues"
   },
-  "homepage": "https://github.com/ryanpcmcquen/atom-plain",
-  "_id": "plain-theme@0.4.1",
-  "_shasum": "740f28db1e4a9b3defeeb0201daed222a4c4f5bd",
-  "_resolved": "file:../d-11532-3157-1flt9ww/package.tgz",
-  "_from": "../d-11532-3157-1flt9ww/package.tgz",
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".json": [
-        "package.json"
-      ]
-    },
-    "folders": []
-  }
+  "homepage": "https://github.com/ryanpcmcquen/atom-plain"
 }
